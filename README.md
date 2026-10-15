@@ -11,7 +11,7 @@ Aplikasi lokal berbasis React, Vite, Tailwind CSS, dan Dexie/IndexedDB untuk kat
 
 ## Akun awal
 
-- Ops Sekolah (Ibu Kristi): username `ibu.kristi`. Pada instalasi baru, petugas menyetel sandi akun di browser saat pertama kali digunakan.
+- Ops Sekolah (Ibu Kristi): username `ibu.kristi`; sandinya mengikuti hash akun admin di browser ini. Pada instalasi baru, sandi awal admin wajib diganti saat pertama kali masuk.
 
 Akun demo admin/guru/siswa dari instalasi sebelumnya tetap tersimpan agar data lokal tidak berubah. Kotak login hanya menampilkan akun operasional sekolah.
 
