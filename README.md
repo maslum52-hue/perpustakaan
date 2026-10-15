@@ -11,9 +11,9 @@ Aplikasi lokal berbasis React, Vite, Tailwind CSS, dan Dexie/IndexedDB untuk kat
 
 ## Akun awal
 
-- Admin: `admin` / `smansa123`
-- Guru: `guru` / `smansa123`
-- Siswa: `siswa` / `smansa123`
+- Ops Sekolah (Ibu Kristi): username `ibu.kristi`. Pada instalasi baru, petugas menyetel sandi akun di browser saat pertama kali digunakan.
+
+Akun demo admin/guru/siswa dari instalasi sebelumnya tetap tersimpan agar data lokal tidak berubah. Kotak login hanya menampilkan akun operasional sekolah.
 
 Ganti kata sandi melalui **Pengaturan → Akun lokal**. Hash SHA-256 dilakukan di browser. Ini cocok untuk uji coba pada satu profil browser, bukan autentikasi kuat untuk layanan publik.
 
