@@ -1,3 +1,5 @@
 @media(max-width:580px){.sidebar.collapsed{display:flex;width:250px;padding:18px 12px;box-shadow:12px 0 35px #102a4340}.sidebar.collapsed .brand-text,.sidebar.collapsed .nav-caption,.sidebar.collapsed .nav-item span,.sidebar.collapsed .status-pill,.sidebar.collapsed .user-copy,.sidebar.collapsed .user-mini>.iconbtn{display:flex}.sidebar.collapsed .brand-text{flex-direction:column}.sidebar.collapsed .nav-caption{display:block}.sidebar.collapsed .nav-item{justify-content:flex-start;padding:0 12px}.sidebar.collapsed .user-mini{justify-content:flex-start}.sidebar.collapsed .collapse{display:none}}
 /* Member avatars and printable-card controls */
 .member-photo{width:29px;height:29px;object-fit:cover;border-radius:9px;flex-shrink:0;border:1px solid #e4eaf0}
+.member-actions{display:flex;align-items:center;gap:8px}
+@media(max-width:580px){.member-actions{width:100%;flex-wrap:wrap}.member-actions>*{flex:1}}
