@@ -21,6 +21,7 @@ Ganti kata sandi melalui **Pengaturan → Akun lokal**. Hash SHA-256 dilakukan d
 
 - Penyimpanan utama pada IndexedDB database `PerpustakaanSMANSAHT`, termasuk akun, buku, eksemplar, anggota, pinjaman, pengaturan, dan aktivitas.
 - CRUD buku dan anggota, pencarian, grid/tabel katalog, status anggota, dan data demo awal.
+- Foto anggota tersimpan di IndexedDB. Tombol QR pada daftar keanggotaan membuat kartu anggota siap cetak berisi foto, identitas, dan QR yang hanya menyimpan ID anggota.
 - Peminjaman berbasis pemindaian QR anggota lalu QR eksemplar; validasi dan pembaruan stok dijalankan dalam transaksi Dexie. Pengembalian dapat melalui QR atau kode manual.
 - Kebijakan jumlah transaksi dan lama pinjam dapat diubah di Pengaturan.
 - Ekspor CSV laporan, koleksi, dan anggota; backup JSON dan pemulihan dengan konfirmasi.
@@ -36,4 +37,4 @@ Ekspor backup JSON dari **Pengaturan → Backup & pemulihan**. File backup menye
 
 ## Catatan cakupan
 
-Foto sampul/anggota, impor CSV, kartu anggota, perpanjangan pinjaman, denda aktual, laporan anggota/buku terpopuler, sinkronisasi beberapa kamera, penggabungan backup, dan migrasi data demo penuh belum disediakan. Antarmuka menjelaskan data lokal secara eksplisit; hindari memakai akun demo atau data pribadi sungguhan pada perangkat bersama. Data demo dimasukkan sekali saat database belum berisi buku, anggota, atau akun.
+Foto sampul buku, impor CSV, perpanjangan pinjaman, denda aktual, laporan anggota/buku terpopuler, cetak kartu massal, sinkronisasi beberapa kamera, penggabungan backup, dan migrasi data demo penuh belum disediakan. Antarmuka menjelaskan data lokal secara eksplisit; hindari memakai akun demo atau data pribadi sungguhan pada perangkat bersama. Data demo dimasukkan sekali saat database belum berisi buku, anggota, atau akun.
